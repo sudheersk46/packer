@@ -1,0 +1,15 @@
+ "ssh_username": "{{user `ssh_name`}}",
+        "ssh_password": "{{user `ssh_pass`}}",
+        "ssh_wait_timeout": "2m",
+
+        "shutdown_command": "echo {{user `ssh_pass`}} | sudo -S shutdown -P now",
+        "boot_wait": "60s",
+
+ ["modifyvm", "{{.Name}}", "--nic", "5"],
+            ["modifyvm", "{{.Name}}", "--intnet", "int"]
+
+"variables": {
+        "ssh_name": "test",
+        "ssh_pass": "test",
+        "hostname": "packer-test"
+    },

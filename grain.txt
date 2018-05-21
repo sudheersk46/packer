@@ -1,0 +1,35 @@
+i.ixed-lap0069:
+    ----------
+    disks:
+        - sda
+        - sr0
+        - loop0
+        - loop1
+        - loop2
+        - loop3
+        - loop4
+        - loop5
+        - loop6
+        - loop7
+    kernelrelease:
+        4.4.0-97-generic
+    manufacturer:
+        LENOVO
+    mem_total:
+        7897
+    nodename:
+        ixed-lap0069
+    os:
+        Ubuntu
+    osarch:
+        amd64
+    productname:
+        80F6
+    serialnumber:
+        MP10Q80S
+    username:
+        root
+         	 root
+	4.4.0-97-generic 	 LENOVO 	       7897 	     ixed-lap0069 	     Ubuntu 	       amd64 	      80F6 	     MP10Q80S
+:::::::::	 root
+	4.4.0-97-generic:	 LENOVO:	       7897:	     ixed-lap0069:	     Ubuntu:	       amd64:	      80F6:	     MP10Q80S
