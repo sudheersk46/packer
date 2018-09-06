@@ -67,18 +67,18 @@
          "superuser<wait><tab><wait><wait>",
          "TEST<wait><tab><wait><wait>",
          "user<wait><tab><wait><wait>",
-         "<wait>p@ssw0rd<tab><wait>",
-         "<wait>p@ssw0rd<tab><wait>",
+         "<wait>pass<tab><wait>",
+         "<wait>pass<tab><wait>",
          "<wait><tab><wait><tab><wait><tab><wait><wait><enter><wait>",
           "<wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10>",
           "<wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10><wait10>",
           "<wait10><wait10><wait10><wait10><wait10>",
           "<wait><enter><wait5><enter>",
-          "<wait><wait5>p@ssw0rd<wait><enter><wait10<wait10>",
+          "<wait><wait5>pass<wait><enter><wait10<wait10>",
           "<wait10><leftCtrlOn><leftAltOn>t<wait10>",
           
           "<wait10><wait10>sudo apt-get install openssh-server -y<wait5>",
-          "p@ssw0rd<wait><wait><enter>",
+          "pass<wait><wait><enter>",
           "<wait10><wait10><wait10"                     
         
          
