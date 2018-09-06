@@ -12,7 +12,7 @@
        {
          "type": "vagrant",
           "compression_level": 1,
-          "output":"/home/superuser/ansible/tets/test.box"
+          "output":"/tmp/test.box"
        }
   
     ],
@@ -39,13 +39,13 @@
 
         "disk_size" : 10000,
 
-        "iso_url": "file:///home/superuser/Desktop/iso/ubuntu-16.04.2-desktop-amd64.iso",
+        "iso_url": "file:///tmp/ubuntu-16.04.2-desktop-amd64.iso",
         "iso_checksum": "1400884cec8e40a1a876b2678f81494b",
         "iso_checksum_type": "md5",
-        "output_directory":"/home/superuser/ansible/packer os",
+        "output_directory":"/tmp/packer os",
          "communicator": "ssh",
-        "ssh_username": "superuser",
-        "ssh_password":"p@ssw0rd",
+        "ssh_username": "user",
+        "ssh_password":"passs",
         "vm_name":"testpacker1",
         "vrdp_bind_address":"0.0.0.0",
        
@@ -65,8 +65,8 @@
          "<wait10><wait10><wait10><tab><wait><tab><wait><enter>",
          "<wait10><tab><tab><tab><wait><tab><wait><tab><wait><enter><wait10>",
          "superuser<wait><tab><wait><wait>",
-         "IXED-LAPTEST<wait><tab><wait><wait>",
-         "superuser<wait><tab><wait><wait>",
+         "TEST<wait><tab><wait><wait>",
+         "user<wait><tab><wait><wait>",
          "<wait>p@ssw0rd<tab><wait>",
          "<wait>p@ssw0rd<tab><wait>",
          "<wait><tab><wait><tab><wait><tab><wait><wait><enter><wait>",
