@@ -1,7 +1,7 @@
 {
 	"builders":[{
 			"type": "virtualbox-iso",
-			"iso_url": "file:///home/superuser/Desktop/iso/ubuntu-16.04.2-desktop-amd64.iso",
+			"iso_url": "file:///home/iso/ubuntu-16.04.2-desktop-amd64.iso",
 			"iso_checksum": "1400884cec8e40a1a876b2678f81494b",
 			"iso_checksum_type": "md5",
 			"ssh_username": "vagrant",
@@ -17,15 +17,15 @@
 				"<tab><tab><enter><wait><tab><tab><tab><enter><wait><tab><tab><tab><tab><tab><enter><tab><enter><tab><enter>",
                                 "kolkata",
                                 "<tab><><enter><tab><tab><tab><tab><tab><tab><enter>",
-                                "superuser",
+                                "user",
                                 "<tab>",
-                                "ixed-testlap",
+                                "hostpp",
                                 "<tab>",
-                                "superuser",
+                                "user",
                                 "<tab>",
-                                "p@ssw0rd",
+                                "password",
                                 "<tab>",
-                                "p@ssw0rd",
+                                "password",
                                 "<tab><tab><tab><tab><enter>"
 				]
 		}
