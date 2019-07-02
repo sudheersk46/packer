@@ -4,3 +4,9 @@ managed available os types
 vboxmange list
 
 vboxmanage list ostypes##
+
+##other vboxmange options
+
+vboxmange | more
+
+vboxmange | grep modifyvm
