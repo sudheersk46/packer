@@ -1,0 +1,6 @@
+virtualbox-iso' errored: Error creating VM: VBoxManage error: VBoxManage: error: Guest OS type 'ubuntu_64' is invalid ## chnage guestos type from vbox m
+managed available os types
+
+vboxmange list
+
+vboxmanage list ostypes##
